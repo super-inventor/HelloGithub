@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开源项目启动成功</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="success-text">恭喜你，你已成功运行了一个开源项目！</h1>
+        <p class="subtitle">项目已准备就绪</p>
+        
+        <div class="button-group">
+            <a href="https://chenyile2007.cn" class="apple-btn" target="_blank">访问讲师首页</a>
+            <button id="themeToggle" class="theme-btn">切换主题</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
